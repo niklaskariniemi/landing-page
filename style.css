@@ -2,7 +2,7 @@
 
 * {
     margin: 0;
-    font-family: roboto;
+    font-family: 'Roboto', arial;
 }
 
 ul {
@@ -36,3 +36,57 @@ ul {
   .right-links {
     font-size: 16px;
   }
+
+/* -- First Section -- */
+
+.first-section {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 90px;
+}
+
+.first-text {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 400px;
+    text-align: left;
+    margin-right: 50px;
+}
+
+.first-text p {
+    opacity: 0.7;
+    margin: 10px;
+}
+
+.first-button {
+    display: block;
+    text-align: center;
+    width: 110px;
+    border: none;
+    background: #3882f6;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.first-photo {
+    background-color: grey;
+    height: 250px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin: 10px;
+}
