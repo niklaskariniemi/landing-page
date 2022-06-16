@@ -91,7 +91,7 @@ h1 {
     margin: 10px;
 }
 
-/* -- First Section -- */
+/* -- Second Section -- */
 
 h2 {
     display: flex;
@@ -127,4 +127,25 @@ h2 {
 .column p {
     margin-top: 10px;
     text-align: center;
+}
+
+/* -- Third Section -- */
+
+.third-section {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote-sign {
+    font-weight: bold;
+    text-align: right;
+    margin-top: 10px;
 }
