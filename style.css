@@ -1,0 +1,38 @@
+/* -- Universal CSS -- */
+
+* {
+    margin: 0;
+    font-family: roboto;
+}
+
+ul {
+    /* this removes the dots on the list items*/
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+  }
+
+  a {
+    padding: 10px;
+    color: #F9faf8;
+    /* this removes the line under the links */
+    text-decoration: none;
+  }
+
+/* -- Header CSS -- */
+
+.header  {
+    background: #1F2937;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .left-links {
+    font-size: 24px;
+  }
+
+  .right-links {
+    font-size: 16px;
+  }
